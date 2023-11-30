@@ -1,0 +1,6 @@
+# Distribution / packages
+.Python
+*egg-info/
+
+# Mac-specific
+.DS_Store

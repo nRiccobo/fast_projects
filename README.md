@@ -29,8 +29,11 @@ A project repository with examples that use OpenFAST and FAST tools
 
     `conda install -c conda-forge/label/dev openfast`
 
+6. Final setup step of repository:
 
-# Check OpenFAST install
+    `pip install -e .`
+
+# Check OpenFAST installation
 
     `which openfast`
     `openfast -v`
