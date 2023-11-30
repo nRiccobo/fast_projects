@@ -1,6 +1,13 @@
+# Byte-compiled / optimized / DLL files 
+__pycache__/
+*.py[cod]
+*$.py.class
+
 # Distribution / packages
 .Python
 *egg-info/
+wheels/
+*.egg
 
 # Mac-specific
 .DS_Store
