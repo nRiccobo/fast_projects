@@ -6,6 +6,6 @@
 .DS_Store
 
 # Outputs
-examples/**/*.vtk
+examples/**/*.vtp
 examples/**/*.out
 examples/**/*.json
