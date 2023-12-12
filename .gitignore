@@ -4,3 +4,6 @@
 
 # Mac-specific
 .DS_Store
+
+# Outputs
+examples/**/*.vtk
