@@ -11,3 +11,8 @@ wheels/
 
 # Mac-specific
 .DS_Store
+
+# Outputs
+examples/**/*.vtp
+examples/**/*.out
+examples/**/*.json
