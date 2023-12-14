@@ -21,7 +21,7 @@ A project repository with examples that use OpenFAST and FAST tools
 
     `pip install -r requirements.txt`
 
-5. Install OpenFAST [main release or pre-release (dev)]:
+5. Install OpenFAST [main release or pre-release (dev)]: (Note: skip this step if you already have OpenFAST installed)
 
     `conda install -c conda-forge openfast`
 
