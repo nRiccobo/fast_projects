@@ -12,8 +12,9 @@ wheels/
 # Mac-specific
 .DS_Store
 
+# lib files
+lib/*[.so,.dll,.dylib]
 # Outputs
 examples/**/*.vtp
-examples/**/*.out,.*outb
+examples/**/*[.out,.outb,.dbg,.dbg2]
 examples/**/*.json
-examples/**/*.dbg,*.dbg2
