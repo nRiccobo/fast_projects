@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files 
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$.py.class
@@ -14,5 +14,6 @@ wheels/
 
 # Outputs
 examples/**/*.vtp
-examples/**/*.out
+examples/**/*.out,.*outb
 examples/**/*.json
+examples/**/*.dbg,*.dbg2
