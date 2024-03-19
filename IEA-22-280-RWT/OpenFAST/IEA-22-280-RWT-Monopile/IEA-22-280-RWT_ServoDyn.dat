@@ -71,10 +71,10 @@ True                   GenTiStp    - Method to stop the generator {T: timed usin
 ""                     TStCfiles   - Name of the file for tower tuned mass damper (quoted string) [unused when CompNTMD is false]
 0                      NumSStC     - Number of sbustructure structural controllers (integer)
 ""                     SStCfiles   - Name of the file for sbustructure tuned mass damper (quoted string) [unused when CompNTMD is false]
----------------------- CABLE CONTROL ---------------------------------------- 
+---------------------- CABLE CONTROL ----------------------------------------
 0                      CCmode      - Cable control mode {0- none, 4- user-defined from Simulink/Labview, 5- user-defineAfC_phased from Bladed-style DLL}
 ---------------------- BLADED INTERFACE ---------------------------------------- [used only with Bladed Interface]
-"/usr/share/miniconda3/envs/test/lib/libdiscon.so" DLL_FileName - Name/location of the dynamic library {.dll [Windows] or .so [Linux]} in the Bladed-DLL format (-) [used only with Bladed Interface]
+"../../../library/libdiscon.dylib" DLL_FileName - Name/location of the dynamic library {.dll [Windows] or .so [Linux]} in the Bladed-DLL format (-) [used only with Bladed Interface]
 "IEA-22-280-RWT_DISCON.IN" DLL_InFile  - Name of input file sent to the DLL (-) [used only with Bladed Interface]
 "DISCON"               DLL_ProcName - Name of procedure in DLL to be called (-) [case sensitive; used only with DLL Interface]
 default                DLL_DT      - Communication interval for dynamic library (s) (or "default") [used only with Bladed Interface]
@@ -95,8 +95,8 @@ False                  DLL_Ramp    - Whether a linear ramp should be used betwee
 0.0                    GenPwr_Dem  - Record 13: Demanded power (W) [used only with Bladed Interface]
 ---------------------- BLADED INTERFACE TORQUE-SPEED LOOK-UP TABLE -------------
 0                      DLL_NumTrq  - Record 26: No. of points in torque-speed look-up table {0 = none and use the optimal mode parameters; nonzero = ignore the optimal mode PARAMETERs by setting Record 16 to 0.0} (-) [used only with Bladed Interface]
-GenSpd_TLU            	GenTrq_TLU            
-(rpm)                 	(Nm)                  
+GenSpd_TLU            	GenTrq_TLU
+(rpm)                 	(Nm)
 ---------------------- OUTPUT --------------------------------------------------
 False                  SumPrint    - Print summary data to <RootName>.sum (flag) (currently unused)
 1                      OutFile     - Switch to determine where output will be placed: {1: in module output file only; 2: in glue code output file only; 3: both} (currently unused)
