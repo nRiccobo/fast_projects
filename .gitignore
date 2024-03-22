@@ -16,5 +16,6 @@ wheels/
 lib/*[.so,.dll,.dylib]
 # Outputs
 examples/**/*.vtp
+examples/**/*[.bts, .sum]
 examples/**/*[.out,.outb,.dbg,.dbg2]
 examples/**/*.json
